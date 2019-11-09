@@ -1,0 +1,36 @@
+{
+  "name": "stripe-example",
+  "version": "1.0.0",
+  "description": "stripe example using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rdhaliwal97/stripe-example.git"
+  },
+  "keywords": [
+    "stripe",
+    "nodejs",
+    "payment"
+  ],
+  "author": {
+    "url": "https://github.com/Rdhaliwal97",
+    "email": "rdhaliwal97@outlook.com",
+    "name": "Manpreet Singh Dhaliwal"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rdhaliwal97/stripe-example/issues"
+  },
+  "homepage": "https://github.com/Rdhaliwal97/stripe-example#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "stripe": "^7.13.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
