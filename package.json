@@ -1,36 +1,19 @@
 {
-  "name": "stripe-example",
-  "version": "1.0.0",
-  "description": "stripe example using nodejs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rdhaliwal97/stripe-example.git"
-  },
-  "keywords": [
-    "stripe",
-    "nodejs",
-    "payment"
-  ],
-  "author": {
-    "url": "https://github.com/Rdhaliwal97",
-    "email": "rdhaliwal97@outlook.com",
-    "name": "Manpreet Singh Dhaliwal"
-  },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Rdhaliwal97/stripe-example/issues"
-  },
-  "homepage": "https://github.com/Rdhaliwal97/stripe-example#readme",
-  "dependencies": {
-    "ejs": "^2.7.1",
-    "express": "^4.17.1",
-    "stripe": "^7.13.0"
-  },
-  "devDependencies": {
-    "dotenv": "^8.2.0"
+    "name": "checkout-subscription-with-add-on",
+    "version": "1.0.0",
+    "description": "Checkout subs example",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server/node/server.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "stripe-samples",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "dotenv": "^8.0.0",
+      "express": "^4.17.1",
+      "stripe": "^7.1.0"
+    }
   }
-}
+  
