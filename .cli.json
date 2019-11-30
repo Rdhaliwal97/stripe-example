@@ -1,18 +1,12 @@
 {
-  "name": "checkout-subscription-and-add-on",
-  "configureDotEnv": true,
-  "integrations": [
-    {
-      "name": "client-and-server",
-      "clients": ["web"],
-      "servers": ["node"]
-    },
-    {
-      "name": "client-only",
-      "clients": [
-        "web"
-      ],
-      "servers": []
-    }
-  ]
-}
+    "name": "creating-subscriptions",
+    "configureDotEnv": true,
+    "integrations": [
+      {
+        "name": "main",
+        "clients": ["web"],
+        "servers": ["java", "node", "php", "python", "ruby", "go"]
+      }
+    ]
+  }
+  
